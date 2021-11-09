@@ -1,0 +1,167 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+.body {
+	font-family: Times New Roman;
+	background-color: rgb(24, 47, 66);
+	color: white;
+	margin: 0;
+}
+#wraphome {
+	font-family: Times New Roman;
+	background-image: url(chi3_background.jpg);
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	backdrop-filter: blur(5px);
+  	margin: 0;
+}
+header > p {
+	float: right;
+}
+header img {
+	width: 200px;
+	height: 125px;
+}
+.nav {
+    float: right;
+    font: bold 18px;
+    /*border: 1px solid #121314;
+    border-top: 1px solid #2b2e30;*/
+    border-radius: 0px;
+    overflow: hidden;
+    width:84%;
+    margin-top: 40px;
+}
+.nav ul {
+	float: left;
+    margin:0;
+    padding:0;
+    list-style:none;
+    overflow: hidden;
+}
+.nav li {
+    float:left;
+}
+.nav ul li a {
+    float: left;
+    padding: 13px 46px;
+    color: #d4d4d4;
+    text-decoration: none;
+    text-shadow:2px 2px black;
+	/*border-left: 1px solid rgba(255, 255, 255, 0.05);
+    border-right: 1px solid rgba(0,0,0,0.2);
+    background:#3C4042;*/
+}
+.nav ul li a:active, .nav ul li a:hover {
+	color: lightyellow;
+	text-decoration: none;
+}
+h1 {
+	color: #c1fbf9;
+	font-size: 50px;
+	text-align: center;
+	margin-top: 0.5px;
+	margin-bottom: 5px;
+}
+#deets {
+	font-size:  20px;
+	text-align: center;
+}
+.about {
+	font-size: 18px;
+}
+.me img {
+	position: relative;
+	top: 130px;
+	left: 568px;
+	height: 250px;
+	border: 2px solid;
+	border-radius: 50%;
+	border-color: white;
+	box-shadow: 2px 2px black;
+}
+.me p {
+	position: relative;
+	color: white;
+	font: 22px bold;
+	width: 250px;
+	left: -568px;
+	top: 120px;
+	background-color: darkblue;
+	text-align: center;
+	text-shadow: 2px 2px black;
+	animation: ri 1s linear;
+} 
+@keyframes my {
+	0%{
+		left: -80px;
+	}
+	20%{
+		left: 20px;
+	}
+	40%{
+		left: 120px;
+	}
+	60%{
+		left: 220px;
+	}
+	80%{
+		left: 320px;
+	}
+	100%{
+		left: 420px;
+	}
+}
+#down {
+	position: relative;
+	top: 110px;
+	font-size: 16px;
+	border-color: white;
+	border: 2px solid;
+	border-radius: 60%;
+	text-shadow: 2px 2px black;
+	box-shadow: 1px 1px black;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color: lightyellow;
+}
+a:hover, a:active {
+	color: cyan;
+}
+
+.edu img {
+	width: 1000px;
+	max-height: 500px;
+}
+.footer {
+	background-color: black;
+	max-height: 310px;
+}
+.footer .tablehead {
+	text-align: left;
+	color: cyan;
+	padding: 20px;
+}
+.tablehead, th {
+	font: Arial, Helvetica, sans-serif;
+	font-size: 22px;
+}
+.footer table {
+	position: relative;
+	left: 500px;
+	top: -250px;
+	border-spacing: 15px;
+}
+table, th, td {
+  padding-right: 100px;
+}
+.footer img {
+	width: 400px;
+	height: 250px;
+}
