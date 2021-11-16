@@ -138,13 +138,32 @@ a:hover, a:active {
 	float: right;
 	width: 500px;
 	max-height: 500px;
+	padding: 10px;
 }
 .name {
 	clear: both;
 	font-size: 25px;
 }
+.iit {
+	min-height: 400px;
+}
 .cms {
-	min-height: 700px;
+	min-height: 500px;
+}
+.about img {
+	float: right;
+	width: 300px;
+	padding: 5px;
+	/*height: 400px;*/
+}
+#gallery ul li img {
+	float: left;
+	width: 23%;
+	border: 2px solid cyan;
+	margin-right: 2%;
+}
+#gallery ul {
+	list-style: none;
 }
 .footer {
 	background-color: black;
