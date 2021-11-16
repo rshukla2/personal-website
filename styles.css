@@ -181,6 +181,15 @@ a:hover, a:active {
 	max-width: 70px;
 	font-size: 14px;
 }
+#space {
+	min-height: 300px;
+}
+.worklist li img {
+	float: right;
+	width: 500px;
+	height: 300px;
+	padding: 10px;
+}
 .footer {
 	background-color: black;
 	max-height: 310px;
