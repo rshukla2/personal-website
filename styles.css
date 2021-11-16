@@ -137,7 +137,7 @@ a:hover, a:active {
 .edu img, .cms img {
 	float: right;
 	width: 500px;
-	max-height: 500px;
+	height: 300px;
 	padding: 10px;
 }
 .name {
@@ -175,6 +175,7 @@ a:hover, a:active {
 .iconslist li img {
 	width: 70px;
 	height: 70px;
+	border: 1px solid black;
 }
 .iconslist li div {
 	text-align: center;
@@ -184,11 +185,17 @@ a:hover, a:active {
 #space {
 	min-height: 300px;
 }
-.worklist li img {
+.worklist li img, .projlist li img {
 	float: right;
 	width: 500px;
 	height: 300px;
 	padding: 10px;
+}
+.projlink {
+	margin-bottom: 20px;
+}
+#space2 {
+	min-height: 1000px;
 }
 .footer {
 	background-color: black;
