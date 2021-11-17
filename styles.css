@@ -185,7 +185,7 @@ a:hover, a:active {
 #space {
 	min-height: 300px;
 }
-.worklist li img, .projlist li img {
+.worklist li img, .projlist li img, .awardlist li img {
 	float: right;
 	width: 500px;
 	height: 300px;
@@ -194,8 +194,8 @@ a:hover, a:active {
 .projlink {
 	margin-bottom: 20px;
 }
-#space2 {
-	min-height: 1000px;
+.edu, .about {
+	padding: 10px;
 }
 .footer {
 	background-color: black;
